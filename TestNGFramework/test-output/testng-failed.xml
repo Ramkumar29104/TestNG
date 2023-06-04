@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="productName" value="OnePlus"/>
+    <parameter name="productCategory" value="Electronics"/>
+    <classes>
+      <class name="testNG.P3_AmazonParameterTestNG">
+        <methods>
+          <include name="searchProduct"/>
+          <include name="invokeBrowser"/>
+          <include name="resultCount"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testNG.P3_AmazonParameterTestNG -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
